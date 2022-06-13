@@ -1,0 +1,13 @@
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'login/style.css' %}">
+{% endblock %}
+
+<div class="container">
+    <div class="row text-center">
+        <h2>Welcome, Join Us!</h2>
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'signup' %}">Signup</a>
+    </div>
+</div>

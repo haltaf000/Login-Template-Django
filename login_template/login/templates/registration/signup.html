@@ -1,0 +1,17 @@
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'login/style.css' %}">
+{% endblock %}
+
+<div class="container">
+   <div class="row text-center">
+      <h2>Sign up</h2>
+      <form class="signup" method="post">
+         {% csrf_token %}
+         {{ form.as_p }}
+         <input type="submit" value="Signup"/>
+      </form>
+
+   </div>
+</div>

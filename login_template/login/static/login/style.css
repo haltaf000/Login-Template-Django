@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    padding: 175px;
+    padding-left: 350px;
+  }
+  input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .card-body {
+    width: 300px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 55px;
+    margin-right: -75px;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .3);
+}
+
+.card {
+    display: flex;
+}
+
+
