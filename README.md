@@ -1,6 +1,6 @@
 # Login-Template-Django
 
-Simple login, logout, registration applications to add to your project. Uses LoginRequiredMixin and login decorator to autheticate who can edit, update, delete, and/or view certain pages.
+Simple login, logout, and registration applications to add to your project. Uses LoginRequiredMixin and login decorator to authenticate who can edit, update, delete, and view certain pages.
 
 ## Important 
 <ul>
